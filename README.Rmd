@@ -1,0 +1,29 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# scrap
+
+The scrap package is a collection of useful R functions and code snippets.
+These are pieces I either wrote or (most likely) I _discovered_ on StackOverflow and that I found useful
+in multiple occasions (> 3) in my personal or professional projects.
+
+## Installation
+
+You can install scrap from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("espinielli/scrap")
+```
+
