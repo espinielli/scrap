@@ -7,7 +7,7 @@
 fromUnixTime(posix)
 }
 \arguments{
-\item{posix}{a vector of integer numbeer of seconds since Unix Epoch}
+\item{posix}{a vector of integer number of seconds since Unix Epoch}
 }
 \value{
 a POSIXct object
@@ -18,4 +18,7 @@ Convert a Unix time to a timestamp
 \examples{
 fromUnixTime(1501668000)
 
+}
+\seealso{
+fromPosixTime
 }

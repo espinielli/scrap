@@ -19,3 +19,5 @@ Suggests: DBI,
     parsedate,
     tibble,
     withr
+Imports: 
+    lubridate
