@@ -11,5 +11,5 @@
 #' use_gitignore()
 #' }
 use_gitignore <- function() {
-  usethis::use_template(".gitignore", package = "scrap")
+  usethis::use_template("gitignore", save_as = paste0(".gitignore"), package = "scrap")
 }
