@@ -8,7 +8,8 @@ use_gitignore()
 }
 \description{
 The content of the .gitignore is from
-https://github.com/github/gitignore/blob/master/R.gitignore
+https://github.com/github/gitignore/ for
+R, macOS, Windows and Linux
 }
 \examples{
 \dontrun{
