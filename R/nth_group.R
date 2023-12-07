@@ -24,8 +24,8 @@
 nth_group <- function(x, n) {
   x %>%
     dplyr::select(dplyr::group_cols()) %>%
-    dplyr::distinct %>%
-    dplyr::ungroup %>%
+    dplyr::distinct() %>%
+    dplyr::ungroup() %>%
     dplyr::slice(n) %>%
     { dplyr::semi_join(x, .data)}
 }
