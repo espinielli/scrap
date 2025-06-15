@@ -2,7 +2,7 @@
 % Please edit documentation in R/unix_time.R
 \name{fromPosixTime}
 \alias{fromPosixTime}
-\title{Convert a Unix/Posix time to a timestamp}
+\title{Convert a Posix time to a timestamp}
 \usage{
 fromPosixTime(posix)
 }
@@ -13,7 +13,7 @@ fromPosixTime(posix)
 a POSIXct object
 }
 \description{
-Convert a Unix/Posix time to a timestamp
+Convert a Posix time to a timestamp
 }
 \examples{
 fromPosixTime(1501668000)

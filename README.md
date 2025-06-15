@@ -16,3 +16,20 @@ You can install scrap from github with:
 # install.packages("devtools")
 devtools::install_github("espinielli/scrap")
 ```
+
+## Building the documentation
+
+### Development
+
+In order to build the relevant `pkgdown` web pages while developing,
+execute the following code:
+
+``` r
+
+# How to build the pakgdown from behind proxied Internet
+library(withr)
+library(pkgdown)
+
+with_options(list(pkgdown.internet = FALSE),
+             build_site())
+```

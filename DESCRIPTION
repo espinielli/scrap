@@ -12,18 +12,20 @@ Description: A collection of functions and snippets of code that
     I found useful in my data analysis in personal or professional
     projects.
 License: MIT + file LICENSE
-URL: https://github.com/espinielli/scrap
+URL: https://github.com/espinielli/scrap, https://espinielli.github.io/scrap
 BugReports: https://github.com/espinielli/scrap/issues
 Imports: 
     dflow,
     dplyr,
     lubridate,
     magrittr,
+    purrr,
     rlang,
+    stringr,
     usethis
 Remotes:
     MilesMcBain/dflow
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.2
 Roxygen: list(markdown = TRUE)

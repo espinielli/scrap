@@ -13,7 +13,7 @@ fromUnixTime <- function(posix) {
   as.POSIXct(posix, origin = "1970-01-01", tz = "UTC")
 }
 
-#' Convert a Unix/Posix time to a timestamp
+#' Convert a Posix time to a timestamp
 #'
 #' @param posix a vector of integer numbers of seconds since Unix Epoch
 #'
