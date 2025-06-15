@@ -12,7 +12,7 @@ A collection of functions and snippets of code that I found useful in my data an
 Useful links:
 \itemize{
   \item \url{https://github.com/espinielli/scrap}
-  \item \url{https://espinielli.github.io/scrap}
+  \item \url{https://espinielli.github.io/scrap/}
   \item Report bugs at \url{https://github.com/espinielli/scrap/issues}
 }
 

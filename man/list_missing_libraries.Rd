@@ -17,7 +17,8 @@ List libraries not installed
 }
 \examples{
 \dontrun{
-list_missing_libraries(c("dplyr", "geobr"))
+discover_libraries(".") |>
+  list_missing_libraries()
 }
 }
 \seealso{

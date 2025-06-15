@@ -119,7 +119,8 @@ look_for_pkgfun <- function(contents) {
 #'
 #' @examples
 #' \dontrun{
-#' list_missing_libraries(c("dplyr", "geobr"))
+#' discover_libraries(".") |>
+#'   list_missing_libraries()
 #' }
 list_missing_libraries <- function(libs) {
   # missing <- setdiff(libs, installed.packages())

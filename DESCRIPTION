@@ -1,7 +1,7 @@
 Type: Package
 Package: scrap
 Title: A collection of useful (for me) snippets of code
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     person(given = "Enrico",
            family = "Spinielli",
