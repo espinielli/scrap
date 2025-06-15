@@ -1,22 +1,21 @@
-url: https://espinielli.github.io/scrap
+url: https://espinielli.github.io/scrap/
 template:
   bootstrap: 5
-
 reference:
-  - title: "Discovering dependencies"
-    desc: >
-      Functions for discovering libraries used in a project.
-    contents:
-    - has_concept("libraries")
-  - title: "Time conversion"
-    desc: "Convert from Unix and Posix timestamp."
-    contents:
-    - fromUnixTime
-    - fromPosixTime
-  - title: "Miscellanea"
-    desc: "Various functions."
-    contents:
-    - starts_with("use_")
-    - "%ni%"
-    - "nth_group"
-    - "shhh"
+- title: Discovering dependencies
+  desc: |
+    Functions for discovering libraries used in a project.
+  contents: has_concept("libraries")
+- title: Time conversion
+  desc: Convert from Unix and Posix timestamp.
+  contents:
+  - fromUnixTime
+  - fromPosixTime
+- title: Miscellanea
+  desc: Various functions.
+  contents:
+  - starts_with("use_")
+  - '%ni%'
+  - nth_group
+  - shhh
+
